@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Login and Registeation from design</title>
+<link rel="stylesheet" href="Formstyle.css">
+<head>
+<body>
+ <div class="login-page">
+ <div class="form">
+ 	<form class="register-form">
+ 	<input type="type" placeholder="user name"/>
+ 	<input type="type" placeholder="password"/>
+ 	<input type="type" placeholder="email id"/>
+ 	<button>create</button>
+ 	<p class="massage">Already registered? <a href="#">Log in</a></p>
+    </form>
+
+ 	<form class="login-form">
+ 	<input type="text" placeholder="user name">
+ 	<input type="password" placeholder="password">
+ 	<button>login</button>
+ 	<p class="massage">Not Registered? <a href="#">Registes</a></p>	
+ 	</form>
+  </div>	
+  </div>
+
+  <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+
+  <script>
+  $('.massage a').click(function(){
+  $('form').animate({height: "toggle", opacity: "toggle"},"slow");
+  });
+
+  </script>
+
+
+
+
+</body>
+<html>
+
+
